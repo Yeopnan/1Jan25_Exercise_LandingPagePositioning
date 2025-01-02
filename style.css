@@ -6,7 +6,7 @@ body {
 
 header {
   background-color: rgb(216, 210, 221);
-  padding: 10px 20px;
+  padding: 20px 20px;
   display: flex;
   color: rgb(148, 13, 13);
 }
@@ -77,6 +77,7 @@ header {
 /* Add gap between containers */
 .container-1 {
   padding: 0;
+  color: #333;
   margin-bottom: 20px;
   margin-top: 20px;
   background-color: rgb(193, 238, 30);
@@ -97,4 +98,45 @@ header {
 }
 .nav-links a:hover {
   text-decoration: underline;
+}
+.container {
+  padding: 20px;
+  background-color: hsl(210, 88%, 52%);
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px; /* Add gap between containers */
+}
+
+/* Card Container Styles */
+.card-container {
+  display: flex;
+  justify-content: space-between; /* Space out cards */
+  gap: 20px; /* Add gap between cards */
+}
+
+/* Individual Card Styles */
+.card {
+  background-color: #fff; /* White background for cards */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  width: calc(33.33% - 20px); /* Adjust width for three cards with gap */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.card p {
+  font-size: 14px;
+  color: #555;
 }
